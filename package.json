@@ -1,0 +1,21 @@
+{
+  "name": "uniport",
+  "version": "0.1.0",
+  "description": "uniport is the universal js importer and bundler allowing you to mix import/export with require/modules and creating a single .js file that will work with esm, cjs, and browser. CURRENTLY IN DEVELOPMENT AND NOT FINISHED",
+  "bin": {
+    "uniport": "./bin/cli.js"
+  },
+  "dependencies": {
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "babel-loader": "latest",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetrenox/uniport.git"
+  }
+  
+}
