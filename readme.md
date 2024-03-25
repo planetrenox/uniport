@@ -25,7 +25,6 @@ To create a production bundle of your project, add the following script to your 
 ```json
 "scripts": {
   "build": "uniport",
-  "start": "uniport live"
 }
 ```
 Then, run:
